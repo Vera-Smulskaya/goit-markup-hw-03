@@ -1,0 +1,200 @@
+:root {
+  --white-color: #ffffff;
+  --light-color: #f4f4fd;
+  --dark-color: #2e2f42;
+  --primary-text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --success-color: #31d0aa;
+  --main-font-size: 16px;
+  --logo-font-size: 18px;
+  --title-font-size: 20px;
+  --main-title-font-size: 24px;
+  --main-line-height: 1.5;
+  --title-line-height: 1.2;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-size: var(--main-font-size);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: var(--logo-font-size);
+  line-height: 1.17;
+  color: var(--primary-brand-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-color-header {
+  color: var(--dark-color);
+}
+
+.menu-item {
+  color: var(--dark-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: var(--main-line-height);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--pressed-state-color);
+}
+
+.header-contact {
+  line-height: var(--main-line-height);
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--pressed-state-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.order-service {
+  background-color: var(--dark-color);
+}
+
+.order-service-title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.order-service-btn {
+  font-weight: 500;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+  color: var(--white-color);
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  background-color: var(--primary-brand-color);
+  cursor: pointer;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.title-direction {
+  font-weight: 500;
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.content-direction {
+  line-height: var(--main-line-height);
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+  text-align: center;
+}
+
+.team-list {
+  background-color: var(--white-color);
+}
+
+.team {
+  background-color: var(--light-color);
+}
+
+.team-list-item {
+  background-color: var(--white-color);
+}
+
+.name {
+  font-weight: 500;
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.position {
+  line-height: var(--main-line-height);
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.logo-color-footer {
+  color: var(--light-color);
+}
+
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--main-font-size);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  border: 1px solid var(--accent-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
+}
+
+.name-item {
+  font-weight: 500;
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.name-filter {
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.footer-discription {
+  line-height: var(--main-line-height);
+  letter-spacing: 0.02em;
+}
