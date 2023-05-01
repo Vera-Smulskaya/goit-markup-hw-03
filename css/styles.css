@@ -125,10 +125,6 @@ body {
   text-align: center;
 }
 
-.team-list {
-  background-color: var(--white-color);
-}
-
 .team {
   background-color: var(--light-color);
 }
