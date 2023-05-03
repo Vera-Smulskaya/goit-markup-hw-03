@@ -27,6 +27,30 @@ body {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -35,10 +59,6 @@ body {
   color: var(--primary-brand-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.list {
-  list-style: none;
 }
 
 .logo-color-header {
