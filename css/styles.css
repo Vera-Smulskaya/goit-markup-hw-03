@@ -116,7 +116,7 @@ img {
   line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  display: inline-block;
+  display: block;
   padding: 24px 0;
 }
 
@@ -182,8 +182,19 @@ img {
   background-color: var(--light-color);
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-list-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--white-color);
+}
+
+.team-item-details {
+  padding: 32px 16px;
 }
 
 .name {
@@ -192,21 +203,30 @@ img {
   line-height: var(--title-line-height);
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .position {
   line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  text-align: center;
 }
 
 .footer {
   background-color: var(--dark-color);
   color: var(--light-color);
+  padding: 100px 0;
 }
 
 .logo-color-footer {
   color: var(--light-color);
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .filter-btn {
@@ -228,12 +248,30 @@ img {
   background-color: var(--pressed-state-color);
 }
 
+.list-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.list-gallery-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.name-box {
+  padding: 32px 16px;
+  border: 1px solid var(--accent-color);
+  border-top: none;
+}
+
 .name-item {
   font-weight: 500;
   font-size: var(--title-font-size);
   line-height: var(--title-line-height);
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 
 .name-filter {
@@ -246,4 +284,17 @@ img {
 .footer-discription {
   line-height: var(--main-line-height);
   letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
