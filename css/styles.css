@@ -48,6 +48,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .header {
@@ -125,8 +127,19 @@ img {
   color: var(--pressed-state-color);
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-directions {
+  padding-bottom: 0;
+}
+
 .order-service {
   background-color: var(--dark-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .order-service-title {
@@ -136,6 +149,10 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-service-btn {
@@ -147,11 +164,25 @@ img {
   font-family: inherit;
   background-color: var(--primary-brand-color);
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-service-btn:hover,
 .order-service-btn:focus {
   background-color: var(--pressed-state-color);
+}
+
+.list-directions {
+  display: flex;
+  gap: 24px;
+}
+
+.list-directions-item {
+  width: 264px;
 }
 
 .title-direction {
@@ -160,6 +191,7 @@ img {
   line-height: var(--title-line-height);
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 
 .content-direction {
@@ -176,6 +208,7 @@ img {
   text-transform: capitalize;
   color: var(--dark-color);
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team {
@@ -214,6 +247,11 @@ img {
   text-align: center;
 }
 
+.list-images {
+  display: flex;
+  gap: 24px;
+}
+
 .footer {
   background-color: var(--dark-color);
   color: var(--light-color);
@@ -229,6 +267,18 @@ img {
   margin-bottom: 16px;
 }
 
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-size: var(--main-font-size);
@@ -240,6 +290,7 @@ img {
   color: var(--primary-brand-color);
   background-color: var(--light-color);
   border: 1px solid var(--accent-color);
+  padding: 12px 24px;
 }
 
 .filter-btn:hover,
@@ -284,6 +335,7 @@ img {
 .footer-discription {
   line-height: var(--main-line-height);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .visually-hidden {
