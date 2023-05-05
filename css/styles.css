@@ -132,9 +132,9 @@ img {
   padding-bottom: 120px;
 }
 
-.section-directions {
+/* .section-directions {
   padding-bottom: 0;
-}
+} */
 
 .order-service {
   background-color: var(--dark-color);
@@ -169,6 +169,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .order-service-btn:hover,
@@ -252,6 +255,10 @@ img {
   gap: 24px;
 }
 
+.list-images-item {
+  width: calc((100% - 48px) / 3);
+}
+
 .footer {
   background-color: var(--dark-color);
   color: var(--light-color);
@@ -297,6 +304,7 @@ img {
 .filter-btn:focus {
   color: var(--white-color);
   background-color: var(--pressed-state-color);
+  border: 1px solid transparent;
 }
 
 .list-gallery {
