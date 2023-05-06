@@ -106,7 +106,7 @@ img {
 
 .address {
   font-style: normal;
-  margin-left: 332px;
+  margin-left: auto;
 }
 
 .address-list {
@@ -130,6 +130,10 @@ img {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.section-what-doing {
+  padding-top: 0;
 }
 
 .order-service {
@@ -268,6 +272,7 @@ img {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 
 .section-portfolio {
